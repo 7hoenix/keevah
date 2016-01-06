@@ -1,3 +1,14 @@
+GIT
+  remote: git://github.com/metaskills/less-rails.git
+  revision: 539f28d174bfb2e6969a9cd04f89e65a730f2e8f
+  branch: master
+  specs:
+    less-rails (2.7.0)
+      actionpack (>= 4.0)
+      less (~> 2.6.0)
+      sprockets (> 2, < 4)
+      tilt
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -97,9 +108,6 @@ GEM
       addressable (~> 2.3)
     less (2.6.0)
       commonjs (~> 0.2.7)
-    less-rails (2.6.0)
-      actionpack (>= 3.1)
-      less (~> 2.6.0)
     libv8 (3.16.14.7)
     loofah (2.0.1)
       nokogiri (>= 1.5.9)
@@ -261,7 +269,7 @@ DEPENDENCIES
   jquery-rails
   jquery-turbolinks
   launchy
-  less-rails
+  less-rails!
   paperclip
   pg
   poltergeist
@@ -283,4 +291,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.10.6
+   1.11.2

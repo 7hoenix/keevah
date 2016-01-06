@@ -15,7 +15,7 @@ gem "paperclip"
 gem "bootstrap_form"
 gem "font-awesome-rails"
 gem "therubyracer"
-gem "less-rails"
+gem 'less-rails', github: 'metaskills/less-rails', branch: 'master'
 gem "twitter-bootstrap-rails"
 gem "faker"
 gem "responders"
